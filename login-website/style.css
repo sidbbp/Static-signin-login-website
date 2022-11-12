@@ -1,0 +1,89 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+   
+}
+
+.Login,.signin{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.login-details{
+    display: inline-block;
+    margin-top: 100px;
+    border-style: solid;
+    padding: 5px;
+}
+.signin-details{
+    display: inline-block;
+    margin-top: 50px;
+    border-style: solid;
+    padding: 8px;
+
+}
+
+.username,.password{
+    text-align: left;
+    font-size: 26px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color:black;
+    display: block;
+    margin-bottom: 20px;
+}
+.Email-adress,.name,.signup-username,.signup-password,.password-confirm{
+    text-align: left;
+    font-size: 22px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color:black;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.other-option{
+    font-size: 18px;
+}
+
+.login-button{
+    font-size: 27px;
+    width:260px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.signup-button{
+    font-size: 27px;
+    width:260px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.signup-button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.15s;
+}
+.login-button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.15s;
+}
+.signup-linker{
+    font-size: 18px;
+}
+.link-to-signup{
+    color : red;
+}
+
+.link-to-signup:hover{
+    cursor: pointer;
+}
